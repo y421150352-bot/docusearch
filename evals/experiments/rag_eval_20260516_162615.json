@@ -1,0 +1,157 @@
+{
+  "summary": {
+    "total": 6,
+    "success_count": 0,
+    "failed_count": 6,
+    "avg_latency_ms": 0.0,
+    "avg_answer_length": 0.0,
+    "avg_source_count": 0.0,
+    "has_sources_rate": 0.0
+  },
+  "results": [
+    {
+      "question": "这些文章主要研究了什么？",
+      "ground_truth": "这些文章整体围绕飞行员认知负荷识别、评估指标以及基于生理信号和行为数据的建模分析展开。",
+      "answer": "",
+      "summary": "",
+      "key_points": [],
+      "document_name": null,
+      "tags": [
+        "multi_doc"
+      ],
+      "sources": [],
+      "source_count": 0,
+      "retrieval_types": [],
+      "retrieval_type_summary": {},
+      "rerank_scores": [],
+      "latency_ms": 0.0,
+      "answer_length": 0,
+      "has_sources": false,
+      "avg_source_quote_length": 0.0,
+      "contains_ground_truth_keywords": false,
+      "matched_ground_truth_keywords": [],
+      "error": "RuntimeError(\"Failed to import app.services.qa_service.answer_question. Please check FastAPI/Redis/FAISS/LLM dependencies. detail=OSError(22, '动态链接库(DLL)初始化例程失败。', None, 1114)\")"
+    },
+    {
+      "question": "认知负荷是什么？",
+      "ground_truth": "认知负荷通常指个体在完成认知任务时所消耗的心理资源或工作记忆负担。",
+      "answer": "",
+      "summary": "",
+      "key_points": [],
+      "document_name": null,
+      "tags": [
+        "single_doc",
+        "definition"
+      ],
+      "sources": [],
+      "source_count": 0,
+      "retrieval_types": [],
+      "retrieval_type_summary": {},
+      "rerank_scores": [],
+      "latency_ms": 0.0,
+      "answer_length": 0,
+      "has_sources": false,
+      "avg_source_quote_length": 0.0,
+      "contains_ground_truth_keywords": false,
+      "matched_ground_truth_keywords": [],
+      "error": "RuntimeError(\"Failed to import app.services.qa_service.answer_question. Please check FastAPI/Redis/FAISS/LLM dependencies. detail=OSError(22, '动态链接库(DLL)初始化例程失败。', None, 1114)\")"
+    },
+    {
+      "question": "飞行员认知负荷有哪些评估方法？",
+      "ground_truth": "常见评估方法包括主观量表、行为绩效指标以及生理信号指标，如心率变异性、脑电、眼动等。",
+      "answer": "",
+      "summary": "",
+      "key_points": [],
+      "document_name": null,
+      "tags": [
+        "multi_doc",
+        "methods"
+      ],
+      "sources": [],
+      "source_count": 0,
+      "retrieval_types": [],
+      "retrieval_type_summary": {},
+      "rerank_scores": [],
+      "latency_ms": 0.0,
+      "answer_length": 0,
+      "has_sources": false,
+      "avg_source_quote_length": 0.0,
+      "contains_ground_truth_keywords": false,
+      "matched_ground_truth_keywords": [],
+      "error": "RuntimeError(\"Failed to import app.services.qa_service.answer_question. Please check FastAPI/Redis/FAISS/LLM dependencies. detail=OSError(22, '动态链接库(DLL)初始化例程失败。', None, 1114)\")"
+    },
+    {
+      "question": "文档中是否提到 HRV / ECG / 眼动指标？",
+      "ground_truth": "如果相关文档涉及生理测量，通常会提到 HRV、ECG 或眼动等指标作为认知负荷评估特征。",
+      "answer": "",
+      "summary": "",
+      "key_points": [],
+      "document_name": null,
+      "tags": [
+        "source_search",
+        "signal_metrics"
+      ],
+      "sources": [],
+      "source_count": 0,
+      "retrieval_types": [],
+      "retrieval_type_summary": {},
+      "rerank_scores": [],
+      "latency_ms": 0.0,
+      "answer_length": 0,
+      "has_sources": false,
+      "avg_source_quote_length": 0.0,
+      "contains_ground_truth_keywords": false,
+      "matched_ground_truth_keywords": [],
+      "error": "RuntimeError(\"Failed to import app.services.qa_service.answer_question. Please check FastAPI/Redis/FAISS/LLM dependencies. detail=OSError(22, '动态链接库(DLL)初始化例程失败。', None, 1114)\")"
+    },
+    {
+      "question": "这些文章的共同观点是什么？",
+      "ground_truth": "这些文章的共同观点通常是认知负荷可以通过多模态指标进行评估，并对任务表现和飞行安全产生影响。",
+      "answer": "",
+      "summary": "",
+      "key_points": [],
+      "document_name": null,
+      "tags": [
+        "multi_doc",
+        "synthesis"
+      ],
+      "sources": [],
+      "source_count": 0,
+      "retrieval_types": [],
+      "retrieval_type_summary": {},
+      "rerank_scores": [],
+      "latency_ms": 0.0,
+      "answer_length": 0,
+      "has_sources": false,
+      "avg_source_quote_length": 0.0,
+      "contains_ground_truth_keywords": false,
+      "matched_ground_truth_keywords": [],
+      "error": "RuntimeError(\"Failed to import app.services.qa_service.answer_question. Please check FastAPI/Redis/FAISS/LLM dependencies. detail=OSError(22, '动态链接库(DLL)初始化例程失败。', None, 1114)\")"
+    },
+    {
+      "question": "某篇文档的主要内容是什么？",
+      "ground_truth": "回答应概括目标文档的研究背景、方法、数据来源、关键发现和结论。",
+      "answer": "",
+      "summary": "",
+      "key_points": [],
+      "document_name": null,
+      "tags": [
+        "single_doc",
+        "doc_summary"
+      ],
+      "sources": [],
+      "source_count": 0,
+      "retrieval_types": [],
+      "retrieval_type_summary": {},
+      "rerank_scores": [],
+      "latency_ms": 0.0,
+      "answer_length": 0,
+      "has_sources": false,
+      "avg_source_quote_length": 0.0,
+      "contains_ground_truth_keywords": false,
+      "matched_ground_truth_keywords": [],
+      "error": "RuntimeError(\"Failed to import app.services.qa_service.answer_question. Please check FastAPI/Redis/FAISS/LLM dependencies. detail=OSError(22, '动态链接库(DLL)初始化例程失败。', None, 1114)\")"
+    }
+  ],
+  "ragas_available": false
+}

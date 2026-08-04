@@ -1,0 +1,7 @@
+{"question":"这些文章主要研究了什么？","ground_truth":"文档整体围绕飞行员认知负荷的识别、评估方法、多模态生理信号分析以及飞行训练场景中的应用展开。","document_name":null,"tags":["multi_doc","overview"],"expected_keywords":["飞行员","认知负荷","评估方法","生理信号","飞行训练"]}
+{"question":"认知负荷是什么？","ground_truth":"文档应说明认知负荷是飞行员在执行任务时消耗的心理资源或工作记忆负担，并与任务难度和操作表现相关。","document_name":null,"tags":["definition"],"expected_keywords":["认知负荷","飞行员","心理资源","工作记忆","任务难度"]}
+{"question":"飞行员认知负荷有哪些评估方法？","ground_truth":"文档应提到飞行员认知负荷评估方法，包括主观量表、行为绩效、生理信号指标，以及多模态融合分析。","document_name":null,"tags":["methods","multi_doc"],"expected_keywords":["飞行员","认知负荷","评估方法","主观量表","行为绩效","生理信号","多模态"]}
+{"question":"文档中是否提到 HRV / ECG / 眼动指标？","ground_truth":"回答应说明文档是否包含 HRV、ECG、眼动 等生理指标，并指出这些指标如何用于认知负荷评估。","document_name":null,"tags":["signal_metrics"],"expected_keywords":["HRV","ECG","眼动","生理指标","认知负荷","评估"]}
+{"question":"肌电信号怎么提取的？","ground_truth":"文档应说明肌电信号 EMG 的采集、预处理、特征提取，以及用于认知负荷评估的方法。","document_name":null,"tags":["emg","signal_processing"],"expected_keywords":["肌电","EMG","预处理","特征提取","认知负荷","评估"]}
+{"question":"这些文章的共同观点是什么？","ground_truth":"文档的共同观点应包括：认知负荷可以通过多模态指标评估，生理信号与任务负荷密切相关，并会影响飞行表现和训练效果。","document_name":null,"tags":["synthesis","multi_doc"],"expected_keywords":["认知负荷","多模态","生理信号","任务负荷","飞行表现","训练效果"]}
+{"question":"某篇文档的主要内容是什么？","ground_truth":"回答应概括目标文档的研究背景、实验设计、数据来源、评估方法、关键发现和结论。","document_name":null,"tags":["doc_summary"],"expected_keywords":["研究背景","实验设计","数据来源","评估方法","关键发现","结论"]}

@@ -1,0 +1,11 @@
+{
+  "vector_store": "qdrant",
+  "collection_name": "docusearch_chunks",
+  "retrieval": "dense+sparse+rrf",
+  "dense_vector_name": "dense",
+  "sparse_vector_name": "bm25",
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "dim": 384,
+  "chunk_count": 812,
+  "created_at": "2026-08-04 10:41:07"
+}

@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environment
+.venv/
+.venv_old/
+
+# IDE files
+.idea/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Runtime data
+data/app.db
+data/index/
+
+# Temporary files
+.tmp/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
