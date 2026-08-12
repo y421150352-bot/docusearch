@@ -195,7 +195,6 @@ python -m pytest -q --run-integration -m integration
 
 ## 建议的后续工程化工作
 
-- 增加鉴权与权限模型
 - 增加结构化日志与错误告警
 - 为上传文档增加大小限制与审计记录
 - 引入 CI，默认执行快速测试
